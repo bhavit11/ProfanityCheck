@@ -1,3 +1,6 @@
+#!/usr/bin/python
+
+
 import webbrowser
 import time
 import urllib
@@ -21,7 +24,8 @@ def read_word():
         print("\nYour document has no profanity words. You may continue with your document. \n")
 
     else:
-        print (""'\n'.join(list1))
+      print ("\nWARNING: Please edit your document. Your document has the following profanity word(s):")
+      print (""'\n'.join(list1))
 
             
                 
